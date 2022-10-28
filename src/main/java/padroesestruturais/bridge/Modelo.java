@@ -7,6 +7,7 @@ package padroesestruturais.bridge;
 
         protected float precoBase;
 
+
         public Modelo(float precoBase) {
             this.precoBase = precoBase;
         }

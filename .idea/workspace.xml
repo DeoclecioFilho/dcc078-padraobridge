@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0de986ff-b05b-497e-abd5-b8c78ce807af" name="Changes" comment="Arquivos criados">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/V10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/V13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/V13Flex.java" afterDir="false" />
+    <list default="true" id="0de986ff-b05b-497e-abd5-b8c78ce807af" name="Changes" comment="Criado os modelos e versões">
+      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/CronusFlex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/padroesestruturais/ArgusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/padroesestruturais/CronusFlexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/padroesestruturais/CronusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/padroesestruturais/MobiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/Argus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/Argus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/Mobi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/Mobi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/Modelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/Modelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/V13Flex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/bridge/V15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -43,16 +47,117 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Users/Deoclecio/Documents/_SI/7º periodo/dcc078 - EngSolf/padroes-projeto-master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Deoclecio\Documents\_SI\7º periodo\dcc078 - EngSolf\dcc078-padraobridge\src\main\test\padroesestruturais" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="padroesestruturais.bridge" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CronusTest">
+    <configuration name="ArgusTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-padraobridge" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="padroesestruturais.ArgusTest" />
+        <pattern testClass="padroesestruturais.CronusFlexTest" />
+        <pattern testClass="padroesestruturais.CronusTest" />
+        <pattern testClass="padroesestruturais.MobiTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArgusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-padraobridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="padroesestruturais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="padroesestruturais" />
+      <option name="MAIN_CLASS_NAME" value="padroesestruturais.ArgusTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CronusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-padraobridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="padroesestruturais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="padroesestruturais" />
+      <option name="MAIN_CLASS_NAME" value="padroesestruturais.CronusTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <patterns>
+        <pattern testClass="padroesestruturais.ArgusTest" />
+        <pattern testClass="padroesestruturais.CronusFlexTest" />
+        <pattern testClass="padroesestruturais.CronusTest" />
+        <pattern testClass="padroesestruturais.MobiTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-padraobridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="padroesestruturais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="padroesestruturais" />
+      <option name="MAIN_CLASS_NAME" value="padroesestruturais.MobiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="padroesestruturais" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-padraobridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="padroesestruturais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="padroesestruturais" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CronusTest" />
+        <item itemvalue="JUnit.ArgusTest and 3 more" />
+        <item itemvalue="TestNG.padroesestruturais" />
+        <item itemvalue="JUnit.ArgusTest" />
+        <item itemvalue="JUnit.MobiTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666920359547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criado os modelos e versões">
+      <created>1666982976446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666982976446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +199,15 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Arquivos criados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos criados" />
+    <MESSAGE value="Criado os modelos e versões" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado os modelos e versões" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dcc078_padraobridge$padroesestruturais.ic" NAME="padroesestruturais Coverage Results" MODIFIED="1667164769416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>padroesestruturais.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dcc078_padraobridge$CronusTest.ic" NAME="CronusTest Coverage Results" MODIFIED="1667162443242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>padroesestruturais.*</FILTER>
+    </SUITE>
   </component>
 </project>

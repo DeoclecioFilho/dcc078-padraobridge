@@ -1,6 +1,4 @@
 package padroesestruturais.bridge;
-
-
     public abstract class Modelo {
 
         protected Versao versao;
